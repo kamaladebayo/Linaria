@@ -1,0 +1,86 @@
+.home{
+    background-color: #235390;
+    background-image: url(../img/starsbg.png);
+    height: 100%;
+    min-height: 100vh;
+    color: #FFF;
+}
+.home nav{
+    padding: 1em 2em;
+}
+.home nav > a{
+    color: #FFF;
+    font-family: 'Baloo 2', cursive;
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: .08em;
+    user-select: none;
+}
+.home main{
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
+
+.home__mainLeft{
+    max-height: unset;
+    display: flex;
+    padding: 0em;
+}
+
+.home__mainLeft img{
+    user-select: none;
+    pointer-events: none;
+    transform: scale(.7);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+@media(max-width: 700px){
+    .home main{
+        flex-direction: column;
+    }
+    .home__mainLeft{
+        max-height: 50vh;
+    }
+    .home__mainLeft img{
+        transform: scale(1);
+    }
+}
+
+.home__mainRight h1{
+    font-size: 1.6rem;
+}
+.home__btnGroup{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.home__btnGroup a{
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 700;
+    text-align: center;
+    padding: 1em;
+    border-radius: 1em;
+}
+.home__btnGroup a:first-child{
+    background: #58cc02;
+    box-shadow: 0px .3em 5px 0px #58a700;
+    -webkit-box-shadow: 0px .3em 5px 0px #58a700;
+}
+.home__btnGroup a:last-child{
+    background: #235390;
+    box-shadow: 0px 1px 5px 10px #042c60;
+    -webkit-box-shadow: 0px 2px 2px 3px #042c60;
+}
+.home footer{
+    text-align: center;
+    padding: 1em;
+}
+.home footer a{
+    color: #FFF;
+}
