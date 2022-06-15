@@ -1,0 +1,22 @@
+.tasks main{
+    padding: 0 2em;
+    padding-bottom: 1.5em;
+}
+.tasks__container{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    overflow-y: auto;
+}
+.tasks main h1{
+    margin-top: 0;
+}
+.MuiPaper-root.MuiDrawer-paper{
+    /* width: 3em !important; */
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+    /* gap: 1.5em; */
+    padding: 1em;
+    justify-content: space-between;
+}

@@ -1,0 +1,29 @@
+.account main header{
+    display: flex;
+    align-items: center;
+    padding: 0 1em;
+}
+.account main header h1{
+    font-size: 1.2rem;
+    margin-left: auto;
+}
+.account main header ion-icon{
+    margin-left: auto;
+    font-size: 1.3rem;
+}
+.account__details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+}
+.accountDetails__text h2{
+    margin: 0;
+}
+.accountDetails__text p{
+    margin: 0.5em 0;
+    color: #A0A0A0;
+}
+.accountDetails__text ion-icon{
+    font-size: 1.4rem;
+}

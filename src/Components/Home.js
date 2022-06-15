@@ -13,14 +13,15 @@ const Home = () => {
                 <section className="home__mainRight">
                     <h1>Compete with your friends and rivals!</h1>
                     <div className="home__btnGroup">
-                        <a href="/signup">GET STARTED</a>
-                        <a href="/login">I ALREADY HAVE AN ACCOUNT</a>
+                        <a href="/tasks">CONTINUE WITH GOOGLE</a>
+                        {/* <a href="/signup">GET STARTED</a>
+                        <a href="/login">I ALREADY HAVE AN ACCOUNT</a> */}
                     </div>
                 </section>
             </main>
             <footer>
             <hr />
-                <p>Linaria is an entry into the Build with <a href={`https://www.linode.com/?utm_source=hashnode&utm_medium=article&utm_campaign=hackathon_announcement`}>Linode</a> hackathon by <a href="https://hashnode.com/">Hashnode</a>.</p>
+                <p>Linaria is an entry into the build with <a href={`https://www.linode.com/?utm_source=hashnode&utm_medium=article&utm_campaign=hackathon_announcement`}>Linode</a> hackathon by <a href="https://hashnode.com/">Hashnode</a>.</p>
             </footer>
         </div>
      );

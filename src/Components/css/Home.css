@@ -3,6 +3,7 @@
     background-image: url(../img/starsbg.png);
     height: 100%;
     min-height: 100vh;
+    overflow-y: auto;
     color: #FFF;
 }
 .home nav{
@@ -22,7 +23,7 @@
     gap: 2em;
     align-items: center;
     justify-content: center;
-    padding: 1em;
+    padding: 1em 2em;
 }
 
 .home__mainLeft{
@@ -72,11 +73,11 @@
     box-shadow: 0px .3em 5px 0px #58a700;
     -webkit-box-shadow: 0px .3em 5px 0px #58a700;
 }
-.home__btnGroup a:last-child{
+/* .home__btnGroup a:last-child{
     background: #235390;
     box-shadow: 0px 1px 5px 10px #042c60;
     -webkit-box-shadow: 0px 2px 2px 3px #042c60;
-}
+} */
 .home footer{
     text-align: center;
     padding: 1em;
